@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze the Scala 0.1.0 API",
+  "context": "The first release needs a stable surface.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document the public Scala API and compatibility rules.",
+    "expected_outcome": "Consumers can depend on a documented 0.1.0 surface.",
+    "acceptance_criteria": [
+      "Public types are documented",
+      "Breaking changes are listed"
+    ]
+  },
+  "attempts": []
+}

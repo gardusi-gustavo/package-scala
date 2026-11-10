@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add an immutable data example",
+  "context": "Functional patterns need a concrete example.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add an immutable model and transformation example.",
+    "expected_outcome": "The example builds and tests.",
+    "acceptance_criteria": [
+      "Example is documented",
+      "Tests cover the transformation"
+    ]
+  },
+  "attempts": []
+}

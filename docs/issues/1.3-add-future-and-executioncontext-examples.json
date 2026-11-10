@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add Future and ExecutionContext examples",
+  "context": "JVM concurrency is a core goal.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add bounded Future examples with a dedicated execution context.",
+    "expected_outcome": "Consumers can reuse the pattern safely.",
+    "acceptance_criteria": [
+      "Shutdown is documented",
+      "Tests are deterministic"
+    ]
+  },
+  "attempts": []
+}

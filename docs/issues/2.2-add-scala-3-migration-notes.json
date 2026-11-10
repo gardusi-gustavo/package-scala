@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add Scala 3 migration notes",
+  "context": "The package targets Scala 3.3 LTS.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document syntax and toolchain choices.",
+    "expected_outcome": "Consumers know the supported versions.",
+    "acceptance_criteria": [
+      "Version policy is documented",
+      "Upgrade path is described"
+    ]
+  },
+  "attempts": []
+}

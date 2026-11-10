@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document build and layout",
+  "context": "Contributors need a compact map.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document the Maven/Scala layout and local build.",
+    "expected_outcome": "A new contributor can build and test.",
+    "acceptance_criteria": [
+      "README matches the tree",
+      "Build commands are current"
+    ]
+  },
+  "attempts": []
+}
